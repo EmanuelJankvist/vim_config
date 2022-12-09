@@ -1,0 +1,16 @@
+During the process of installing nodejs, coc and yarn I've encountered a couple of problems.
+
+For reference: https://unkertmedia.com/how-to-setup-vim-for-c/
+For reference: https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
+For reference: https://codex.so/how-to-install-the-latest-node-js-npm-and-yarn
+The links above was followed as a guide to set up my vim-config.
+
+I installed nodejs using 'sudo apt-get install nodejs'.
+I then encountered problems with installing yarn.
+I eventually got reffered a command through the terminal, that helped me install yarn (I don't remember this command).
+
+After setting these up i used the following vim-commands to get a CoC-extension and clangd.
+"  :CocInstall coc-clangd      "
+"  :CocCommand clangd.install  "
+
+This concluded these steps in my vim-config process.
